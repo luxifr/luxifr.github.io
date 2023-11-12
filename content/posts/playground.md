@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 
 title: "Playground Post"
 description: "This post is used for testing features and formatting changes."
