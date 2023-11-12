@@ -1,0 +1,26 @@
+author: luxifer
+description: random bits and bobs of a Linux user's and cloud professional's journey
+
+contentWidth: 1000px
+mobileHamburgerNav: true
+
+appletouch: /apple-touch-icon.png
+favicon: /favicon.png
+faviconIco: /favicon.ico
+icon512: /icon512.png
+logo: /logo.svg
+svgicon: /logo.svg
+
+replaceJetBrainsMono: hack-subset
+fontFamily: Hack
+monospaceFontFamily: Hack
+titleFontFamily: Hack
+
+imageInArticlePreview: true
+
+enableFeatured: true
+enableRelatedArticles: true
+randomRelated: false
+relatedArticlesNum: 2
+
+showLastmod: true

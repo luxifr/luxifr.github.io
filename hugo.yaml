@@ -1,0 +1,11 @@
+baseURL: https://luxifer.fyi/
+title: Luxifer's FYI
+theme: hugo-ficurinia
+copyright: luxifer
+
+paginate: 5
+
+languageCode: en
+
+cleanDestinationDir: true
+publishDir: "_site"

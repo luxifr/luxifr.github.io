@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.cwd": ".",
+		"terminal.integrated.profiles.linux": {
+			"bash-wrc": {
+				"path": "bash",
+				"icon": "terminal-bash",
+				"args": [
+					"--rcfile",
+					".bashrc"
+				]
+			}
+		},
+		"terminal.integrated.defaultProfile.linux": "bash-wrc",
+		"editor.formatOnSaveMode": "file"
+	}
+}
