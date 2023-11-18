@@ -1,5 +1,25 @@
-- first actual post!
 - automatic image optimization
-    - resize down to 1200px wide
-    - convert to 90% compression, optimized jpeg
+  - resize down to 1200px wide
+  - convert to 90% compression, optimized jpeg
 - colour theme
+  - might have to extend template again (heading colours)
+- better readable fonts
+
+<https://t.me/jupitertelegram/360459>
+<https://t.me/jupitertelegram/366811>
+<https://t.me/jupitertelegram/369446>
+<https://t.me/jupitertelegram/382035>
+<https://t.me/jupitertelegram/398541>
+
+- home server setup
+  - debian zfs root
+  - zora@ services
+  - structure around /srv
+- this blog setup
+  - gh pages custom domain
+  - gh actions
+  - hugo local dev with docker
+- my gentoo setup
+- fde bitlocker style on gentoo
+- fde bitlocker style on debian/ubuntu (eg. remote servers... kvm required for safety though?)
+- "AWP" shell function/completion for selection AWS_PROFILE from config
