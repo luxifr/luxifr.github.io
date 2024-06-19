@@ -11,10 +11,14 @@ icon512: /icon512.png
 logo: /logo.svg
 svgicon: /logo.svg
 
-replaceJetBrainsMono: hack-subset
 fontFamily: Hack
 monospaceFontFamily: Hack
 titleFontFamily: Hack
+
+defaultFonts: false
+loadFonts:
+  - hack-subset
+  - symbols-nerd-font
 
 imageInArticlePreview: true
 
@@ -22,5 +26,3 @@ enableFeatured: true
 enableRelatedArticles: true
 randomRelated: false
 relatedArticlesNum: 2
-
-showLastmod: true
