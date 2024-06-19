@@ -27,10 +27,10 @@ jobs:
     steps:
       - name: Get Hugo version
         id: getHugoVersion
-        run: echo "::set-output name=version::$(cat HUGO_VERSION)"
+        run: echo "{version}={$(cat HUGO_VERSION)}" >> "$GITHUB_OUTPUT"
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "${{ steps.getHugoVersion.outputs.version }}"
           extended: true
@@ -61,4 +61,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
